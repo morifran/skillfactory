@@ -1,0 +1,118 @@
+.slider{
+    display: flex;
+    height: 702px;
+    width: 1118px;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 1px 1px rgb(226, 226, 226);
+}
+.slider-line{
+    display: flex;
+     width: 3360px;
+     position: relative;
+     left: 0;
+     transition: all ease 1s;
+}
+.slider__svg1{
+    margin-top: -54px;
+    margin-right: -66px;
+    margin-left: -60px;
+}
+.slider__svg3-img{
+    width: 1120px;
+    height: 702px;
+    flex-shrink: 0;
+    margin-left: -2px;
+}
+.slider-dots{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0; 
+    margin-top: 117px;
+    gap: 5px;
+    z-index: 0;
+}
+button{
+    z-index: 2;
+    cursor: pointer;
+}
+.sliderDot{
+    width: 5px;
+    height: 11px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #EFEEF6;
+    z-index: 1;
+}
+.activeDot{
+    width: 5px;
+    height: 11px;
+    border-radius: 50%;
+    border: 0px;
+    background-color:#9E98DC;
+    z-index: 1;
+}
+.decoration__purpule{
+    display: flex;
+    flex-direction: column;
+    width: 149px;
+    height: 204px;
+    flex-shrink: 0;
+    background: #9E98DC;
+    position:absolute;
+    top: 200px;
+    right: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(153, 153, 153, 0.445);
+}
+.decoration__purpule-p {
+    color: var(--text-black, #1C2A39);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+.decoration__purpule-img{
+    width: 55px;
+    height: 12px;
+    flex-shrink: 0;
+}
+.decoration__pink-img{
+    width: 55px;
+    height: 12px;
+    flex-shrink: 0;
+}
+.decoration__pink{
+    width: 137px;
+    height: 273px;
+    flex-shrink: 0;
+    background: #FF8FE6;
+    padding: 10px;
+    flex-direction: column;
+    display:flex;
+    position: absolute;
+    top: 450px;
+    right: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(153, 153, 153, 0.445);
+}
+.decoration__pink-p{
+    color: var(--text-black, #1C2A39);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 190px;
+}

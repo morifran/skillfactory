@@ -1,0 +1,347 @@
+// получаю доступ к кнопкам
+const but1 = document.getElementById("but1");
+const but2 = document.getElementById("but2");
+const but3 = document.getElementById("but3");
+const but4 = document.getElementById("but4");
+const but5 = document.getElementById("but5");
+const but6 = document.getElementById("but6");
+const but7 = document.getElementById("but7");
+const but8 = document.getElementById("but8");
+const but9 = document.getElementById("but9");
+const but10 = document.getElementById("but10");
+const but11 = document.getElementById("but11");
+const but12 = document.getElementById("but12");
+const but13 = document.getElementById("but13");
+const but14 = document.getElementById("but14");
+const but15 = document.getElementById("but15");
+const but16 = document.getElementById("but16");
+
+document.getElementById("but1").addEventListener("click",()=>{
+    but1.classList.add("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but1");
+ });
+ document.getElementById("but2").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.add("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but2");
+ });
+ document.getElementById("but3").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.add("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but3");
+ });
+ document.getElementById("but4").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.add("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but4");
+ });
+ document.getElementById("but5").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.add("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but5");
+ });
+ document.getElementById("but6").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.add("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but6");
+ });
+ document.getElementById("but7").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.add("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but7");
+ });
+ document.getElementById("but8").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.add("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but8");
+ });
+ document.getElementById("but9").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.add("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but9");
+ });
+ document.getElementById("but10").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.add("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but10");
+ });
+ document.getElementById("but11").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.add("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but11");
+ });
+ document.getElementById("but12").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.add("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but12");
+ });
+ document.getElementById("but13").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.add("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but13");
+ });
+ document.getElementById("but14").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.add("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but14");
+ });
+ document.getElementById("but15").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.add("aside__button-active");
+    but16.classList.remove("aside__button-active");
+    console.log("but15");
+ });
+ document.getElementById("but16").addEventListener("click",()=>{
+    but1.classList.remove("aside__button-active");
+    but2.classList.remove("aside__button-active"); 
+    but3.classList.remove("aside__button-active"); 
+    but4.classList.remove("aside__button-active"); 
+    but5.classList.remove("aside__button-active"); 
+    but6.classList.remove("aside__button-active"); 
+    but7.classList.remove("aside__button-active"); 
+    but8.classList.remove("aside__button-active"); 
+    but9.classList.remove("aside__button-active"); 
+    but10.classList.remove("aside__button-active");
+    but11.classList.remove("aside__button-active");
+    but12.classList.remove("aside__button-active");
+    but13.classList.remove("aside__button-active");
+    but14.classList.remove("aside__button-active");
+    but15.classList.remove("aside__button-active");
+    but16.classList.add("aside__button-active");
+    console.log("but16");
+ });
+
+
+ function updateButtons() {
+    for (let i = 1; i <= 16; i++) {
+        const button = document.getElementById(`but${i}`);
+        
+        if (button) {
+            const isActive = button.classList.contains("aside__button-active");
+            
+            const existingImage = button.querySelector("#purpDot");
+            if (isActive && !existingImage) {
+                const image = document.createElement("img");
+                image.id = "purpDot";
+                image.src = "logos/purp-dot.svg";
+                image.classList.add("aside__button-active-dot");
+                button.insertBefore(image, button.firstChild);
+            } else if (!isActive && existingImage) {
+                existingImage.remove();
+            }
+        }
+    }
+}
+setInterval(updateButtons, 100);
+
+ 
