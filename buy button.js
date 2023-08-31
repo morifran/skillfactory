@@ -1,4 +1,6 @@
-const buyBut = document.getElementsByClassName("buy");
+//'этот фрагмент работал до того как подключил load_books 
+
+const buyBut = document.querySelectorAll("buy");
 var counterElement = document.querySelector(".header__section-counter-num");[0];
 const redDot = document.getElementsByClassName("header__section-counter-dot")[0];
 let count = 0;

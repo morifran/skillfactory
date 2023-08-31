@@ -3,19 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const booksSection = document.querySelector(".main__cards");
   const loadMoreButton = document.querySelector(".loadMore");
   const categories = document.querySelectorAll(".aside__button");
-  const placeholderImageUrl = "https://via.placeholder.com/150";
-
-
 
   let currentPage = 1;
-  let activeCategory = categories[0].getAttribute("id");
+  let activeCategory = categories[0].textContent;
 
   function createBookCard(book) {
     const card = document.createElement("div");
     card.classList.add("main__card");
 
     const authors = book.volumeInfo.authors ? book.volumeInfo.authors.join(", ") : "Unknown Author";
-    const thumbnail = book.volumeInfo.imageLinks?.thumbnail || placeholderImageUrl;
+    const thumbnail = book.volumeInfo.imageLinks?.thumbnail || "placeholder.jpg";
     const rating = book.volumeInfo.averageRating ? `${book.volumeInfo.averageRating} (${book.volumeInfo.ratingsCount || 0} reviews)` : "";
     const description = book.volumeInfo.description ? (book.volumeInfo.description.length > 150 ? book.volumeInfo.description.slice(0, 150) + "..." : book.volumeInfo.description) : "No description available";
     const price = book.saleInfo.listPrice ? `${book.saleInfo.listPrice.amount} ${book.saleInfo.listPrice.currencyCode}` : "";
@@ -64,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   categories.forEach(category => {
     category.addEventListener("click", async () => {
       currentPage = 1;
-      activeCategory = category.getAttribute("id").substr(3); // Обрезаем "but" из id
+      activeCategory = category.textContent;
       booksSection.innerHTML = "";
       if (loadMoreButton) {
         loadMoreButton.disabled = false;
