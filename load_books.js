@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   categories.forEach(category => {
     category.addEventListener("click", async () => {
       currentPage = 1;
-      activeCategory = category.getAttribute("id").substr(3);
+      activeCategory = category.getAttribute("id").substr(3); // Обрезаем "but" из id
       booksSection.innerHTML = "";
       if (loadMoreButton) {
         loadMoreButton.disabled = false;
