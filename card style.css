@@ -18,9 +18,13 @@
     gap: 36px;
 }
 .main__card-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 212px;
     height: 300px;
-    background-color: orangered;
+    background-color:wheat;
+    border-radius: 10px;
 }
 .main__card-description{
     display: flex;
